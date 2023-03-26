@@ -280,11 +280,7 @@
                                 <id>enforce-versions</id>
                                 <goals>
                                     <goal>enforce</goal>
-                                </goals>
-				 <phase>package</phase>
-                                <goals>
-                                    <goal>cobertura</goal>
-                                </goals>
+                                </goals>				
                                 <configuration>
                                     <rules>
                                         <requireMavenVersion>
